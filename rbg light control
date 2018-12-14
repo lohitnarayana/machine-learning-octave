@@ -9,7 +9,7 @@ void setup()
 {  
 strip.begin();
 Serial.begin(115200);
-WiFi.begin("lohit","lohit1615");
+WiFi.begin("network_name","network_password");
 while(WiFi.status()!=WL_CONNECTED)
 {
   delay(500);
